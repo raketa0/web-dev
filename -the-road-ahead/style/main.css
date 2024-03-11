@@ -1,0 +1,220 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: "Lora";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    }
+    .lora-<uniquifier> {
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+      header div{
+        display: inline-block;
+    }
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.head__wrapper{
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 1440px;
+    height: 74px;
+    padding-top: 17px;
+}
+.header__logo{
+    width: 92px;
+    height: 26px;
+    padding-top: 3px;
+    margin-right: 0;
+}
+.header__nav{
+    font-family: Oxygen;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+l   etter-spacing: 0.6000000238418579px;
+    text-align: left;
+
+    margin-left: 500px;
+    width: 377px;
+    height: 40px; 
+}
+
+.header__list{
+    list-style-type: none;
+    width: 377px;
+    height: 40px;
+    padding: 0;
+    margin: 0 auto;
+}
+ul li{
+    display: inline-block; 
+}
+.header__item{
+    font-family: Oxygen;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 19px;
+    letter-spacing: 0.6px;
+}
+
+.header__link{
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #2e2e2e;
+    text-decoration:none;
+}
+
+.intro__title{
+    margin: 0 auto;
+    width: 498px;
+    height: 51px;
+    padding-top: -7px;
+    text-align: center;
+    color: #2e2e2e;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    font-family: Lora;
+    letter-spacing: 2px;
+}
+.intro__wrapper{
+    weight: 940px;
+    height: 159px;
+    margin-top: 89px;
+}
+
+.intro__sebtate{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 504px;
+    height: 20px;
+    text-align: center;
+    color: #2e2e2e;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: Oxygen;
+    letter-spacing: 0em;
+    color: #2E2E2EA1;
+
+}
+
+.intro__photo{
+    width: 1440px;
+    height: 534px;
+    radius: 3px;
+    margin-top: 38px;
+}
+
+.bloktext{
+    max-width: 1440px;
+    max-height: 1706px;
+    margin: 0 auto;
+}
+
+.text{
+    width: 960px;
+    max-height: 1431px;
+    text-align: center;
+    color: #101315; 
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.bloktext__text{
+    
+
+}
+.main__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: Oxygen;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 1440px;
+    height: 89px;
+    background: #232F3899;
+    background: url(../img/Podval.png) no-repeat center;
+}
+.splash{
+    margin: 0 auto;
+    background: #232F3899; 
+    width: 1440px;
+    height: 89px;
+    
+}
+footer div{
+    display: inline-block;
+}
+.footer-wrapper{
+    display: inline-block;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 1440px;
+    height: 74px;
+    padding-top: 28px;
+ 
+}
+
+.footer__logo{
+    width: 92px;
+    height: 26px;
+    padding-top: 3px;
+    margin-right: 0;
+}
+.footer__nav{
+    margin-left: 564px;
+    width: 375px;
+    height: 40px; 
+}
+
+.footer__list{
+    list-style-type: none;
+    width: 377px;
+    height: 40px;
+    padding: 0;
+    margin: 0 auto;
+}
+.footer__item{
+    padding-right: 20px;
+    height: 40px;
+}
+.footer__link{
+    font-size: 11px;
+    line-height: 26px;
+    color: #ffffff;
+    text-decoration:none;
+    font-weight: 400;
+    font-family: Oxygen;
+    letter-spacing: 1px;
+    text-align: right;
+    opacity: 0.6;
+}
